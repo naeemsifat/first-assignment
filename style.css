@@ -1,0 +1,74 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.text-center{
+    text-align: center;
+}
+p{
+    color: dimgray;
+}
+section{
+    height: 375px;
+    padding-bottom: 150px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.one-third-width{
+    width: 25%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 2%
+}
+.one-third-width img{
+    width: 80%;
+}
+.highlight{
+    color:rgb(230, 16, 87);
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700px;
+}
+.big-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 40px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700px;
+    float:center;
+}
+.first-part{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.second-part{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.third-part{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+#last-background{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
