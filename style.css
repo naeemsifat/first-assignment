@@ -25,7 +25,7 @@ section{
     padding-left: 2%;
 }
 .half-width img{
-    width: 80%;
+    width: 75%;
 }
 .one-third-width{
     width: 25%;
@@ -34,7 +34,7 @@ section{
     margin-left: 2%
 }
 .one-third-width img{
-    width: 80%;
+    width: 100%;
 }
 .highlight{
     color:rgb(230, 16, 87);
@@ -48,13 +48,13 @@ section{
     font-weight: 700px;
 }
 .big-button{
-    text-decoration: none;
+    
     background-image: linear-gradient(45deg,lightsalmon,tomato);
-    padding: 40px 25px;
+    padding: 20px 20px;
     border-radius: 10px;
     color: white;
     font-weight: 700px;
-    float:center;
+    display: inline-block;
 }
 .first-part{
     background-image: url(images/header-bg.png);
@@ -71,4 +71,7 @@ section{
 #last-background{
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
+}
+#text-decoration{
+    text-decoration: none;
 }
